@@ -6,9 +6,9 @@ server.use(express.json());
 server.use("/static", express.static("client"));
 
 let orientation = {
-	yaw: 0,
-	pitch: 0,
-	roll: 0
+	alpha: 0,
+	beta: 0,
+	gamma: 0
 };
 
 server.get("/", (req, res) => {
@@ -19,9 +19,9 @@ server.get("/", (req, res) => {
 
 server.post("/orientation", (req, res) => {
 
-	orientation.yaw = req.body.yaw;
-	orientation.pitch = req.body.roll;
-	orientation.roll = req.body.pitch;
+	orientation.alpha = req.body.alpha;
+	orientation.beta = req.body.beta;
+	orientation.gamma = req.body.gamma;
 	console.log(orientation);
 	
 });

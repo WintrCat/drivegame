@@ -13,3 +13,9 @@ p {
 #connectionTypeSelect {
     padding: 10px;
 }
+
+#steeringWheel {
+	height: 100%;
+	width: auto;
+	display: none;
+}
