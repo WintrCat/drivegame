@@ -1,0 +1,15 @@
+* {
+    font-family: sans-serif;
+}
+
+p {
+    margin: 5px 0px 5px 0px;
+}
+
+.connectionTutorialStep {
+    margin-top: 20px;
+}
+
+#connectionTypeSelect {
+    padding: 10px;
+}

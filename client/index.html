@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Gyroscope Testing</title>
+
+		<link rel="stylesheet" href="/static/index.css">
+	</head>
+	<body>
+		<h1>drivegame</h1>
+
+		<h3><u>How to connect</u></h3>
+
+		<div class="connectionTutorialStep">
+			<p>Grant gyroscope permissions</p>
+			<button id="permissionButton">Request permissions</button>
+			<p style="font-size: 12px;">If it doesn't work you do not have a gyroscope.</p>
+		</div>
+
+		<div class="connectionTutorialStep">
+			<p>Please select the connection type:</p>
+			<select id="connectionTypeSelect">
+				<option value="steeringWheel">Steering Wheel</option>
+				<option value="gameView">Game View</option>
+			</select>
+		</div>
+
+		<h1 id="gyroscopeData"></h1>
+	</body>
+</html>
