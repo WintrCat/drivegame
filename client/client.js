@@ -5,8 +5,8 @@ const permissionButton = document.querySelector("#permissionButton");
 
 permissionButton.addEventListener("click", () => {
 
-	if (DeviceOrientationEvent.requestPermission) {
-		DeviceOrientationEvent.requestPermission();
+	if (DeviceOrientationEvent.requestPermissions) {
+		DeviceOrientationEvent.requestPermissions();
 	}
 
 });
